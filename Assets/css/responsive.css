@@ -1,0 +1,1267 @@
+
+/* xxl */
+@media (min-width:1400px){}
+
+/* xl */
+@media(min-width:1200px) and (max-width:1399.98px){
+    #banner .banner_slider_item {
+        height: 650px;
+    }
+    #banner ul.banner_slider_dots {
+        bottom: 120px;
+    }
+    #product .product_slider .product_slider_arrow.fa-long-arrow-left {
+        left: -30px;
+    }
+    #product .product_slider .product_slider_arrow {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+    #product .product_slider .product_slider_arrow.fa-long-arrow-right {
+        right: -30px;
+    }
+    /* About  Responsive pages start */
+    #Aytor_instagram .instagram_box .instagram_item{
+        margin: 30px 10px;
+    }
+    #Aytor_instagram .instagram_box .instagram_item .overlay{
+        inset: 0;
+    }
+    /* About  Responsive pages End */
+    /* shop details  Responsive pages Start */
+    #shop_details_top .shop_details_top_info form select {
+        width: 485px;
+    }
+     /* shop details  Responsive pages End */
+}
+/* lg */
+@media(min-width:992px) and (max-width:1199.98px){
+    #banner .banner_slider_item {
+        height: 600px;
+    }
+    #banner ul.banner_slider_dots {
+        bottom: 100px;
+    }
+    #banner .banner_slider_item .item_1 h2,
+    #banner .banner_slider_item .item_2 h2,
+    #banner .banner_slider_item .item_3 h2 {
+        font-size: 38px;
+        line-height: 41px;
+    }
+    #product .product_slider .product_slider_arrow.fa-long-arrow-left {
+        left: 10px;
+    }
+    #product .product_slider .product_slider_arrow {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+    #product .product_slider .product_slider_arrow.fa-long-arrow-right {
+        right: 10px;
+    }
+    
+    #special_offer .special_offer_vedio{
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 60%;
+      }
+      #special_offer .special_offer_info p{
+        padding: 10px 0;
+      }
+      #special_offer .special_offer_info h5{
+        margin-top: 390px;
+        font-size: 20px;
+      }
+      #special_offer .special_offer_info h2{
+        padding: 0;
+        margin: 0;
+        font-size: 20px 0;
+      }
+      #special_offer .special_offer_info a {
+        font-size: 18px;
+        padding: 10px 16px;
+        margin-top: 0px;
+    }
+    #news .news_box .news_info h3 {
+        font-size: 18px;
+    }
+    .footer_overlay .overlay_item h5::after{
+        content: none;
+      }
+      .footer_overlay .overlay_item{
+        justify-content: start;
+        padding: 0 100px;
+        position: relative;
+      }
+      .footer_overlay .overlay_item::after{
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 150px;
+        top: 0;
+        right: 0;
+        background-color: #dad4d4;
+      }
+      .footer_overlay .overlay_item:nth-child(2)::after,
+      .footer_overlay .overlay_item:nth-child(3)::after,
+      .footer_overlay .overlay_item:nth-child(4)::after{
+        content: none;
+      }
+        /* About  Responsive pages start */
+        #about_aytor_shop .shop_picture .ladies_pic{
+            margin-top: 80px;
+            width: 450px;
+        }
+        #about_aytor_shop .shop_picture .shape_pic{
+            bottom: 40px;
+            width: 220px;
+        }
+        @keyframes shape{
+            100%{
+                transform: translateX(50px);
+            }
+        }
+        #About_special_offer {
+            padding: 0;
+        }
+        #About_special_offer .special_offer_vedio{
+            position: relative;
+            width: 100%;
+            height: 100%;
+          }
+          #About_special_offer .special_offer_info p{
+            padding: 10px 0;
+
+          }
+        #small_offer .small_offer_box .small_offer_item h5::after{
+            content: none;
+          }
+          #small_offer .small_offer_box .small_offer_item{
+            justify-content: start;
+            padding: 0 100px;
+            position: relative;
+          }
+          #small_offer .small_offer_box .small_offer_item::after{
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 150px;
+            top: 0;
+            right: 0;
+            background-color: #dad4d4;
+          }
+          #small_offer .small_offer_box .small_offer_item:nth-child(2)::after,
+          #small_offer .small_offer_box .small_offer_item:nth-child(3)::after,
+          #small_offer .small_offer_box .small_offer_item:nth-child(4)::after{
+            content: none;
+          }
+          #about_animate .animate_main .animate_main_item p {
+            padding: 0 181px;
+
+        }
+        #Aytor_instagram .instagram_box .instagram_item{
+            margin: 30px 8px;
+        }
+        #Aytor_instagram .instagram_box .instagram_item .overlay{
+            inset: 0;
+        }
+    /* About  Responsive pages End */
+      /* shop details  Responsive pages Start */
+      #shop_details_top .shop_details_top_info form select {
+        width: 401px;
+    }
+    #blog_detials_main .blog_detials_left .smart_pragraph p {
+        padding: 11px;
+        padding-bottom: 0;
+    }
+    #contact_get_touch .contact_get_touch_left h3 {
+        font-size: 29px;
+        line-height: 16px;
+    }
+    #contact_get_touch .contact_get_touch_left {
+        padding: 15px;
+    }
+    #main_contact .main_contact_box {
+        padding: 15px;
+    }
+     /* shop details  Responsive pages End */
+}
+
+/* md */
+@media(min-width:768px) and (max-width:991.98px){
+    #banner .banner_slider_item {
+        height: 500px;
+    }
+    #banner ul.banner_slider_dots {
+        bottom: 80px;
+    }
+    #banner .banner_slider_item .item_1 h2,
+    #banner .banner_slider_item .item_2 h2,
+    #banner .banner_slider_item .item_3 h2 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    #banner .banner_slider_item .item_1 p,
+    #banner .banner_slider_item .item_2 p,
+    #banner .banner_slider_item .item_3 p {
+        line-height: 22px;
+        font-size: 14px;
+    }
+    #feature .feature_item {
+      width: 100%;
+      padding: 12px;
+    }
+    #feature .feature_item .overlay{
+        inset: 30px;
+    }
+    #feature .col-lg-5 .feature_item img{
+        width: 100%;
+    }
+    #product .product_slider .product_slider_arrow.fa-long-arrow-left {
+        left: 10px;
+    }
+    #product .product_slider .product_slider_arrow {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+    #product .product_slider .product_slider_arrow.fa-long-arrow-right {
+        right: 10px;
+    }
+    #cosmetic .cosmetic_item p {
+        line-height: 24px;
+        font-size: 14px;
+        padding-right: 250px;
+    }
+    #special_offer .special_offer_vedio{
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 60%;
+      }
+      #special_offer .special_offer_info p{
+        padding: 0;
+      }
+      #special_offer .special_offer_info h5{
+        margin-top: 370px;
+        font-size: 16px;
+      }
+      #special_offer .special_offer_info h2{
+        padding: 0;
+        margin: 0;
+        font-size: 30px;
+      }
+      #special_offer .special_offer_info a {
+        font-size: 15px;
+        padding: 6px 12px;
+        margin-top: 0px;
+    }
+    .footer_overlay .overlay_item h5::after{
+        content: none;
+      }
+      .footer_overlay .overlay_item{
+        justify-content: start;
+        padding: 0 50px;
+        position: relative;
+      }
+      .footer_overlay .overlay_item::after{
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 150px;
+        top: 0;
+        right: 0;
+        background-color: #dad4d4;
+      }
+      .footer_overlay .overlay_item:nth-child(2)::after,
+      .footer_overlay .overlay_item:nth-child(3)::after,
+      .footer_overlay .overlay_item:nth-child(4)::after{
+        content: none;
+      }
+    #footer .footer_info{
+        justify-content: space-between;
+    }
+    /* popup responsive start */
+    #popup_section .popup{
+        width: 650px;
+        margin: 30px auto 0;
+        background-size: 660px;
+    }
+    #popup_section .popup h3::after{
+        width: 30%;
+        margin-right: 230px;
+     }
+     #popup_section .popup .popup_form form{
+        margin-left: 20px;
+     }
+     #popup_section .popup .popup_form input {
+        width: 455px;
+    }
+    /* popup responsive End */
+        /* About  Responsive pages start */
+        #About_page_heading {
+            height: 280px;
+        }
+        #about_aytor_shop{
+            background-color: #e3e3e3;
+        }
+        #about_aytor_shop .shop_picture .ladies_pic{
+            margin-top: 50px;
+            position: relative;
+        }
+        #about_aytor_shop .shop_picture .shape_pic{
+            bottom: 0;
+            width: 220px;
+        }
+        @keyframes shape{
+            100%{
+                transform: translateX(50px);
+            }
+        }
+        #About_special_offer {
+            padding: 0;
+        }
+        #About_special_offer .special_offer_vedio{
+            position: relative;
+            width: 100%;
+            height: 100%;
+          }
+          #About_special_offer .special_offer_info p{
+            padding: 10px 0;
+          }
+        #small_offer .small_offer_box .small_offer_item h5::after{
+            content: none;
+          }
+          #small_offer .small_offer_box .small_offer_item{
+            justify-content: start;
+            padding: 0 40px;
+            position: relative;
+          }
+          #small_offer .small_offer_box .small_offer_item::after{
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 150px;
+            top: 0;
+            right: 20px;
+            background-color: #dad4d4;
+          }
+         #small_offer .small_offer_box .small_offer_item:nth-child(2)::after,
+         #small_offer .small_offer_box .small_offer_item:nth-child(3)::after,
+         #small_offer .small_offer_box .small_offer_item:nth-child(4)::after{
+            content: none;
+          }
+          #about_animate .animate_main .animate_main_item p {
+            padding: 0 54px;
+        }
+        #Aytor_instagram .instagram_box .instagram_item{
+            margin: 30px 8px;
+        }
+        #Aytor_instagram .instagram_box .instagram_item .overlay{
+            inset: 0;
+        }
+    /* About  Responsive pages End */
+     /* shop details  Responsive pages Start */
+     #shop_details_page_heading {
+        height: 240px;
+    }
+    #shop_details_top .shop_details_top_info h3 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    #shop_details_tab ul li button {
+        padding: 11px 20px;
+    }
+    #shop_details_review_section .review_item .logo h3 {
+        font-size: 34px;
+        width: 50px;
+        height: 50px;
+        line-height: 58px;
+    }
+     /* shop details  Responsive pages End */
+     /*compare Responsive pages Start */
+     #compare_page_heading {
+        height: 254px;
+    }
+       /*compare Responsive pages End */
+        /* cart Responsive pages Start */
+     #cart_page_heading {
+        height: 254px;
+    }
+       /* cart Responsive pages End */
+   /* Checkout Responsive pages Start */
+     #checkout_page_heading {
+        height: 254px;
+    }
+    #checkout_bank_info .accordion-item button h4 {
+        font-size: 13px;
+        line-height: 0;
+    }
+    #checkout_bank_info .accordion-item button input {
+        width: 12px;
+    }
+    #checkout_bank_info p {
+        font-size: 13px;
+        padding-top: 13px;
+    }
+   /* Checkout Responsive pages End */
+   /*Wishlist Responsive pages Start */
+   #Wishlist_page_heading {
+    height: 254px;
+}
+#Wishlist_table table tr td:last-child a {
+    padding: 11px 14px;
+}
+   /*Wishlist Responsive pages End */
+    /* blog Responsive pages Start */
+    #blog_page_heading {
+        height: 254px;
+    }
+       /* blog Responsive pages End */
+       /* blog details Responsive pages Start */
+    #Blog_details_page_heading {
+        height: 254px;
+    }
+    #blog_detials_main .blog_detials_left .smart_pragraph p {
+        padding: 10px;
+        padding-bottom: 0;
+    }
+       /* blog details Responsive pages End */
+         /* contact Responsive pages Start */
+     #Contact_page_heading {
+        height: 254px;
+    }
+    #contact_get_touch .order-1 img{
+        width: 110%;
+        margin: 0;
+    }
+       /* contact Responsive pages End */
+}
+
+/* sm */
+@media(min-width:576px) and (max-width:767.98px){
+    #banner .banner_slider_item {
+        height: 400px;
+    }
+    #feature .col-lg-5 .feature_item{
+        display: block;
+        margin-bottom: 20px;
+      }
+      #product .product_box .product_info h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #product .product_slider .product_slider_arrow{
+        display: none !important;
+    }
+    #cosmetic {
+        height: 400px;
+        background-position-x: left;
+        margin: 50px 0;
+    }
+    #mackup .mackup_box .mackup_first,
+    #mackup .mackup_box .mackup_second,
+    #mackup .mackup_box .mackup_thirt{
+        height: 400px;
+    }
+    #special_offer .special_offer_vedio{
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 50%;
+      }
+      #special_offer .special_offer_info p{
+        padding: 0;
+      }
+      #special_offer .special_offer_info h5{
+        margin-top: 270px;
+        font-size: 16px;
+      }
+      #special_offer .special_offer_info h2{
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+      }
+      #special_offer .special_offer_info a {
+        font-size: 15px;
+        padding: 6px 12px;
+        margin-top: 0px;
+    }
+      .footer_overlay .overlay_item h5,h6{
+        color: var(--dark-color);
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .footer_overlay .overlay_item p{
+        font-size: 14px;
+    }
+    .footer_overlay .overlay_item h5::after{
+        content: none;
+      }
+      .footer_overlay .overlay_item{
+        justify-content: start;
+        position: relative;
+      }
+      .footer_overlay .overlay_item::after{
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 150px;
+        top: 0;
+        right: 10px;
+        background-color: #dad4d4;
+      }
+      .footer_overlay .overlay_item:nth-child(2)::after,
+      .footer_overlay .overlay_item:nth-child(3)::after,
+      .footer_overlay .overlay_item:nth-child(4)::after{
+        content: none;
+      }
+       /* popup responsive start */
+    #popup_section .popup{
+        width: 480px;
+        margin: 30px auto 0;
+        background-size: 480px;
+    }
+    #popup_section .popup h3::after{
+        width: 40%;
+        margin-right: 140px;
+     }
+     #popup_section .popup p {
+        padding: 20px 8px 8px 6px;
+    }
+     #popup_section .popup .popup_form form{
+        margin-left: 20px;
+     }
+     #popup_section .popup .popup_form input {
+        width: 255px;
+    }
+    /* popup responsive End */
+     /* About  Responsive pages start */
+     #About_page_heading {
+        height: 240px;
+    }
+    #About_page_heading h3 {
+        font-size: 38px;
+        line-height: 41px;
+    }
+    #about_aytor_shop{
+        background-color: #e3e3e3;
+    }
+    #about_aytor_shop .shop_picture .ladies_pic{
+        margin-top: 50px;
+        position: relative;
+    }
+    #about_aytor_shop .shop_picture .shape_pic{
+        bottom: 0;
+        width: 220px;
+    }
+    @keyframes shape{
+        100%{
+            transform: translateX(50px);
+        }
+    }
+    #About_special_offer {
+        padding: 0;
+    }
+    #About_special_offer .special_offer_vedio{
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      #About_special_offer .special_offer_info p{
+        padding: 10px 0;
+      }
+     #small_offer .small_offer_box .small_offer_item h5{
+            color: var(--dark-color);
+            font-size: 18px;
+            font-weight: 600;
+        }
+        #small_offer .small_offer_box .small_offer_item p{
+            font-size: 14px;
+        }
+        #small_offer .small_offer_box .small_offer_item h5::after{
+            content: none;
+          }
+          #small_offer .small_offer_box .small_offer_item{
+            justify-content: start;
+            position: relative;
+          }
+          #small_offer .small_offer_box .small_offer_item::after{
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 150px;
+            top: 0;
+            right: 10px;
+            background-color: #dad4d4;
+          }
+          #small_offer .small_offer_box .small_offer_item:nth-child(2)::after,
+          #small_offer .small_offer_box .small_offer_item:nth-child(3)::after,
+          #small_offer .small_offer_box .small_offer_item:nth-child(4)::after{
+            content: none;
+          }
+          #about_animate .animate_main .animate_main_item p {
+            padding: 0;
+        }
+        #Aytor_instagram .instagram_box .instagram_item{
+            margin: 30px 8px;
+        }
+        #Aytor_instagram .instagram_box .instagram_item .overlay{
+            inset: 0;
+        }
+    /* About  Responsive pages End */
+    /* shop  Responsive pages start */
+    #shop_page_heading {
+        height: 289px;
+    }
+      /* shop  Responsive pages End */
+       /* shop details  Responsive pages Start */
+       #shop_details_page_heading {
+        height: 200px;
+    }
+    #shop_details_page_heading h3 {
+        font-size: 35px;
+        line-height: 49px;
+    }
+    #shop_details_top .shop_details_top_info h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    #shop_details_top .shop_details_top_info p {
+        font-size: 14px;
+    }
+    #shop_details_top .shop_details_top_info form select {
+        width: 445px;
+    }
+    #shop_details_tab ul li button {
+        font-size: 11px;
+        padding: 9px 21px;
+    }
+    #shop_details_tab #pills-home p{
+        font-size: 14px;
+    }
+    #shop_details_review_section .review_item .logo h3 {
+        font-size: 34px;
+        width: 50px;
+        height: 50px;
+        line-height: 58px;
+    }
+    #shop_details_review_section .review_item .info i{
+        font-size: 10px;
+    } 
+     /* shop details  Responsive pages End */
+      /*compare Responsive pages Start */
+      #compare_page_heading {
+        height: 200px;
+    }
+    #compare_page_heading h3 {
+        font-size: 35px;
+        line-height: 32px;
+    }
+       /*compare Responsive pages End */
+       /*cart Responsive pages Start */
+      #cart_page_heading {
+        height: 200px;
+    }
+    #cart_page_heading h3 {
+        font-size: 35px;
+        line-height: 32px;
+    }
+       /*cart Responsive pages End */
+       /* Checkout Responsive pages Start */
+    #checkout_page_heading {
+        height: 200px;
+    }
+    #checkout_page_heading h3 {
+        font-size: 35px;
+        line-height: 32px;
+    }
+    #checkout_your_order .head {
+        font-size: 21px;
+    }
+    #checkout_form .Additional_Information h3 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    #checkout_bank_info .accordion-item button h4 {
+        font-size: 13px;
+        line-height: 0;
+    }
+    #checkout_bank_info .accordion-item button input {
+        width: 12px;
+    }
+    #checkout_bank_info p {
+        font-size: 13px;
+        padding-top: 13px;
+    }
+   /* Checkout Responsive pages End */
+    /*  Wishlist Responsive pages Start */
+    #Wishlist_page_heading {
+        height: 200px;
+    }
+    #Wishlist_page_heading h3 {
+        font-size: 35px;
+        line-height: 32px;
+    }
+    /*  Wishlist Responsive pages End */
+    /*  blog Responsive pages Start */
+    #blog_page_heading {
+        height: 200px;
+    }
+    #blog_page_heading h3 {
+        font-size: 35px;
+        line-height: 32px;
+    }
+    /*  blog Responsive pages End */
+    /*  blog details Responsive pages Start */
+    #Blog_details_page_heading {
+        height: 200px;
+    }
+    #Blog_details_page_heading h3 {
+        font-size: 35px;
+        line-height: 32px;
+    }
+    #blog_detials_main .blog_detials_left .smart_pragraph p {
+        padding: 8px;
+        padding-bottom: 0;
+    }
+    #blog_detials_main .blog_detials_left .tow_img img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #blog_detials_main .blog_detials_left .blog_leave_reply form div input {
+        width: 100%;
+    }
+    #blog_detials_main .blog_detials_left .blog_replay_section .Aytor_Studio .info span h6 {
+        line-height: 0px;
+    }
+    /*  blog details Responsive pages End */
+    /*  Contact Responsive pages Start */
+    #Contact_page_heading {
+        height: 200px;
+    }
+    #Contact_page_heading h3 {
+        font-size: 35px;
+        line-height: 32px;
+    }
+    #contact_get_touch .contact_get_touch_left h3 {
+        font-size: 26px;
+    }
+    #contact_get_touch .contact_get_touch_left form input {
+        width: 100%;
+    }
+    /*  Contact Responsive pages End */
+    /*  error_page Responsive pages Start */
+    #error_page .picture img{
+        width: 80%;
+      }
+      #error_page{
+        padding: 70px 0;
+    }
+    /*  error_page Responsive pages End */
+
+}
+
+/* xs */
+@media(max-width:575.98px){
+    #special_offer .special_offer_vedio{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+    }
+    #banner .banner_slider_item {
+        height: 200px;
+    }
+    #banner .banner_slider_item .item_1 h2,
+    #banner .banner_slider_item .item_2 h2,
+    #banner .banner_slider_item .item_3 h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    #banner .banner_slider_item .item_1 a,
+    #banner .banner_slider_item .item_2 a,
+    #banner .banner_slider_item .item_3 a{
+        font-size: 14px;
+        padding: 3px 5px;
+    }
+    #banner .banner_slider_item .item_1 a i,
+    #banner .banner_slider_item .item_2 a i,
+    #banner .banner_slider_item .item_3 a i{
+        padding-left: 0;
+    }
+    #special_offer .special_offer_vedio{
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 40%;
+      }
+      #special_offer .special_offer_info p{
+        padding: 15px 0 0 0;
+        text-align: center;
+      }
+      #special_offer .special_offer_info h5{
+        margin-top: 250px;
+        font-size: 16px;
+        text-align: center;
+      }
+      #special_offer .special_offer_info h2{
+        padding: 0;
+        margin: 0;
+        line-height: 34px;
+        font-size: 25px;
+        text-align: center;
+      }
+      #special_offer .special_offer_info a {
+        font-size: 15px;
+        padding: 6px 12px;
+        margin-top: 0px;
+    }
+    #product .product_slider .product_slider_arrow{
+        display: none !important;
+    }
+    #cosmetic {
+        height: 400px;
+        background-position-x: left;
+        margin: 50px 0;
+    }
+    #cosmetic .cosmetic_item h5 {
+        font-size: 28px;
+        text-align: center;
+    }
+    #cosmetic .cosmetic_item p{
+        text-align: center;
+    }
+    #cosmetic .cosmetic_item a {
+        padding: 8px 11px;
+    }
+    #seller_product .main_title h3 {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+    #mackup .main_title h3 {
+        font-size: 24px;
+    }
+    #mackup .deals_countdown {
+        width: 276px;
+    }
+    #mackup .mackup_box .mackup_item h5 {
+        font-size: 16px;
+        text-align: center;
+    }
+    #mackup .mackup_box .mackup_item h2 {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+    #mackup .mackup_shadow{
+        padding: 70px 10px;
+    }
+    #mackup .mackup_box .mackup_item p {
+        line-height: 21px;
+        font-size: 13px;
+        margin-top: 7px;
+        text-align: center;
+    }
+    #mackup .mackup_box .mackup_item h4 {
+        text-align: center;
+    }
+    #mackup .mackup_box .mackup_item {
+        padding: 12px;
+    }
+    #mackup .mackup_box .mackup_first,
+    #mackup .mackup_box .mackup_second,
+    #mackup .mackup_box .mackup_thirt{
+        height: 340px;
+    }
+    #mackup .mackup_slider_dots_container ul.mackup_slider_dots {
+        bottom: 46px;
+    }
+    .footer_overlay .overlay_item h5::after{
+        content: none;
+      }
+      .footer_overlay .overlay_item{
+        justify-content: start;
+      }
+    #footer .copy_right div{
+        font-size: 12px;
+    }
+     /* popup responsive start */
+     #popup_section .popup{
+        width: 300px;
+        margin: 30px auto 0;
+        background-size: 300px;
+    }
+    #popup_section .popup h3{
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    #popup_section .popup h3::after{
+        width: 35%;
+        margin-right: 100px;
+     }
+     #popup_section .popup p {
+        padding: 20px 8px 8px 6px;
+    }
+     #popup_section .popup .popup_form form{
+        margin-left: 25px;
+     }
+     #popup_section .popup .popup_form input {
+        width: 255px;
+        margin-bottom: 15px;
+    }
+    #popup_section .popup .last_form{
+        margin-top: 5px;
+     }
+     #popup_section .popup .last_form input{
+      width: 15px;
+     }
+     #popup_section .popup .last_form h6{
+        font-size: 14px;
+     }
+    /* popup responsive End */
+        /* About  Responsive pages start */
+        #About_page_heading {
+            height: 220px;
+        }
+        #About_page_heading h3 {
+            font-size: 32px;
+            line-height: 34px;
+        }
+        #about_aytor_shop{
+            background-color: #e3e3e3;
+        }
+        #about_aytor_shop .shop_picture .ladies_pic{
+            width: 100%;
+            margin-top: 50px;
+            position: relative;
+        }
+        #about_aytor_shop .shop_picture .shape_pic{
+            bottom: -30px;
+            width: 240px;
+        }
+        @keyframes shape{
+            100%{
+                transform: translateX(50px);
+            }
+        }
+        #about_aytor_shop .about_aytor_shop_info h3 {
+            font-size: 25px;
+        }
+        #about_aytor_shop .about_aytor_shop_info p {
+            padding: 0;
+        }
+        #About_special_offer {
+            padding: 0;
+        }
+        #About_special_offer .special_offer_vedio{
+            position: relative;
+            width: 100%;
+            height: 100%;
+          }
+          #About_special_offer .special_offer_info p{
+            padding: 10px 0;
+          }
+          #About_special_offer .special_offer_info h2 {
+            padding: 0;
+        }
+        #small_offer .small_offer_box .small_offer_item h5::after{
+            content: none;
+          }
+          #small_offer .small_offer_box .small_offer_item{
+            justify-content: start;
+          }
+          #leadership_team .main_title h3 {
+            font-size: 28px;
+            line-height: 32px;
+        }
+        #about_animate .animate_main .animate_main_item p {
+            padding: 0;
+        }
+        #Aytor_instagram .main_title h3 {
+            font-size: 26px;
+            line-height: 17px;
+        }
+        #Aytor_instagram .instagram_box .instagram_item{
+            margin: 30px 8px;
+        }
+        #Aytor_instagram .instagram_box .instagram_item .overlay{
+            inset: 0;
+        }
+    /* About  Responsive pages End */
+    /* shop  Responsive pages start */
+    #shop_page_heading {
+        height: 240px;
+    }
+    #shop_page_heading h3 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+      /* shop  Responsive pages End */
+       /* shop details  Responsive pages Start */
+       #shop_details_page_heading {
+        height: 180px;
+    }
+    #shop_details_page_heading h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    #shop_details_top .shop_details_top_info form select {
+        width: 243px;
+    }
+    #shop_details_top .shop_details_top_info .quantity ul li:first-child a {
+        width: 112px;
+    }
+    #shop_details_tab ul li button {
+        width: 250px;
+        font-size: 14px;
+    }
+    #shop_details_review_section .review_item .logo{
+        width: 20%;
+    }
+    #shop_details_review_section .review_item .logo h3 {
+        font-size: 44px;
+        width: 60px;
+        height: 60px;
+        line-height: 70px;
+    }
+    #shop_details_review_section .review_item .info i{
+        font-size: 10px;
+    } 
+    #shop_details_add_review_section h3 {
+        font-size: 24px;
+    }
+    #shop_details_add_review_section form div input{
+        width: 100%;
+    }
+    #main_shop .main_title h3 {
+        font-size: 27px;
+        margin-top: 31px;
+    }
+     /* shop details  Responsive pages End */
+      /*compare Responsive pages Start */
+      #compare_page_heading {
+        height: 180px;
+    }
+    #compare_page_heading h3 {
+        font-size: 32px;
+        line-height: 21px;
+    }
+    #compare_page_heading h6 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+       /*compare Responsive pages End */
+       /*cart Responsive pages Start */
+      #cart_page_heading {
+        height: 180px;
+    }
+    #cart_page_heading h3 {
+        font-size: 32px;
+        line-height: 21px;
+    }
+    #cart_page_heading h6 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+       /*cart Responsive pages End */
+       /*checkout Responsive pages start */
+       #checkout_page_heading {
+        height: 180px;
+    }
+    #checkout_page_heading h3 {
+        font-size: 32px;
+        line-height: 21px;
+    }
+    #checkout_page_heading h6 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    #checkout_click_here p {
+        font-size: 11px;
+    }
+    #checkout_click_here p i {
+        line-height: 17px;
+        width: 20px;
+        height: 20px;
+    }
+    #checkout_form .Billing_Information h3 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    #checkout_form .Additional_Information h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    #checkout_bank_info .accordion-item button h4 {
+        font-size: 11px;
+        line-height: 0;
+    }
+    #checkout_bank_info .accordion-item button input {
+        width: 10px;
+    }
+    #checkout_bank_info p {
+        font-size: 11px;
+        padding-top: 13px;
+    }
+       /*checkout Responsive pages End */
+         /*Wishlist Responsive pages Start */
+         #Wishlist_page_heading {
+            height: 180px;
+        }
+        #Wishlist_page_heading h3 {
+            font-size: 32px;
+            line-height: 21px;
+        }
+        #Wishlist_page_heading h6 {
+            font-size: 14px;
+            line-height: 19px;
+        }     
+          /*Wishlist Responsive pages End */
+          
+          /*blog Responsive pages Start */
+         #blog_page_heading {
+            height: 180px;
+        }
+        #blog_page_heading h3 {
+            font-size: 30px;
+            line-height: 28px;
+        }
+        #blog_page_heading h6 {
+            font-size: 12px;
+            line-height: 26px;
+        }    
+        #blog_main .blog_info .calander a {
+            font-size: 13px;
+        } 
+        #blog_main .blog_info .head {
+            font-size: 23px;
+            line-height: 28px;
+        }
+          /*blog Responsive pages End */
+           /*blog details pages Start */
+         #Blog_details_page_heading {
+            height: 180px;
+        }
+        #Blog_details_page_heading h3 {
+            font-size: 32px;
+            line-height: 21px;
+        }
+        #Blog_details_page_heading h6 {
+            font-size: 14px;
+            line-height: 19px;
+        }     
+        #blog_detials_main .blog_detials_left h3 {
+            font-size: 19px;
+            line-height: 31px;
+        }
+        #blog_detials_main .blog_detials_left p {
+            font-size: 13px;
+        }
+        #blog_detials_main .blog_detials_left .smart_pragraph p {
+            padding: 9px;
+            font-size: 12px;
+            padding-bottom: 0;
+        }
+        #blog_detials_main .blog_detials_left .tow_img img {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        #blog_detials_main .blog_detials_left .blog_replay_section .Aytor_Studio .info span h6 {
+            line-height: 0px;
+        }
+        #blog_detials_main .blog_detials_left .blog_replay_section .Aytor_Studio .picture {
+            width: 77%;
+            height: 37%;
+            display: block;
+            margin: 0 auto;
+        }
+      
+          #blog_detials_main .blog_detials_left .blog_replay_section .Aytor_Studio .info{
+            width: 100% ;
+            padding: 0 15px;
+          }
+          #blog_detials_main .blog_detials_left .blog_replay_section .Aytor_Studio{
+            background-color: #f4f6f9;
+            height: 300px;
+            display: block;
+          }
+          #blog_detials_main .blog_detials_left .blog_replay_section .Aytor_Studio .info a h6 {
+            margin-top: 0px;
+        }
+        #blog_detials_main .blog_detials_left .blog_replay_section .Aytor_Studio_tow .picture {
+            width: 100px;
+            height: 35%;
+            display: block;
+        }
+        #blog_detials_main .blog_detials_left .blog_replay_section .Aytor_Studio_tow{
+            height: 250px;
+            display: block;
+          }
+          #blog_detials_main .blog_detials_left .blog_replay_section .Aytor_Studio_tow .info{
+            width: 100%;
+          }
+          #blog_detials_main .blog_detials_left .blog_replay_section .RoyStudio{
+            width: 90%;
+            height: 250px;
+            margin-left: auto;
+          }
+          #blog_detials_main .blog_detials_left .blog_replay_section .RoyStudio .logo{
+            display: block;
+            height: 30%;
+          }
+          #blog_detials_main .blog_detials_left .blog_replay_section .RoyStudio .info{
+            width: 100%;
+            display: block;
+          }
+        #blog_detials_main .blog_detials_left .blog_leave_reply form div input {
+            width: 100%;
+        }
+          /*blog details Responsive pages End */
+          
+           /*Contact Responsive pages Start */
+         #Contact_page_heading {
+            height: 180px;
+        }
+        #Contact_page_heading h3 {
+            font-size: 32px;
+            line-height: 21px;
+        }
+        #Contact_page_heading h6 {
+            font-size: 14px;
+            line-height: 19px;
+        }   
+        #main_contact .main_contact_box {
+            padding: 19px;
+        }  
+        #contact_get_touch .contact_get_touch_left h3 {
+            font-size: 22px;
+        }
+        #contact_get_touch .contact_get_touch_left form input {
+            width: 100%;
+        }
+          /*Contact Responsive pages End */
+           /*  error_page Responsive pages Start */
+    #error_page .picture img{
+        width: 100%;
+        padding-left: 20px;
+      }
+      #error_page{
+        padding: 60px 0;
+    }
+    /*  error_page Responsive pages End */
+    /* responsive menu start */
+    #responsive_menu .responsive_menu_box{
+        width: 280px;
+    }
+    /* responsive menu start */
+}
+
+
